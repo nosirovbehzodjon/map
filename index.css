@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.text_container {
+    height: 600px;
+    width: 800px;
+    background-color: #ddddd2;
+    /* -webkit-clip-path: polygon(45% 31%, 77% 64%, 82% 100%, 18% 100%, 28% 56%);
+    clip-path: polygon(45% 31%, 77% 64%, 82% 100%, 18% 100%, 28% 56%); */
+    /* overflow-y: hidden; */
+    
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+}
